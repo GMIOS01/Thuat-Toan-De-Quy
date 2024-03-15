@@ -18,7 +18,7 @@ int main(){
 	int n;
 	cin >> n ;
 	int left=0,right=n-1;
-	int a[n-1];
+	int a[n];
 	for (int i = 0;i<n;i++){
 		cout << "a[" << i << "]=" ;
 		cin >> a[i];
