@@ -2,8 +2,8 @@
 
 using namespace std;
 
-int giaithua(int n){
-	return n==0 ? 1:n*giaithua(n-1);
+int giaithuakep(int n){
+	return (n==0 || n==1) ? 1:n*giaithuakep(n-2);
 }
 
 int main(){
